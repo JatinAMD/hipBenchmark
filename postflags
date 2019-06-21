@@ -1,0 +1,4 @@
+-I../benchmark/include
+-L../benchmark/build/src
+-lbenchmark
+-lstdc++
