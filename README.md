@@ -1,5 +1,6 @@
 # hipBenchmark
-Guide to Benchmark your HIP Code.
+
+READ ME FIRST - Guide to Micro-Benchmark your HIP Code.
 
 Checkout the google benchmark lib.
 ```bash                                                                                   
