@@ -54,6 +54,11 @@ $ make test
 Now open 'postflags' file and set the include and link library, make sure it represents your directory structure.
 Basically  ```-I``` and ```-L``` flags to point to right directory.
 
+For AMD Platforms
 ```bash
 $ hipcc $(<preflags) <sourcefile> -o <destination> $(<postflags)
+```
+For NVIDIA Platforms - Basically skip preflags
+```bash
+$ hipcc <sourcefile> -o <destination> $(<postflags)
 ```
