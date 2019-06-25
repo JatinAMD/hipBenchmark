@@ -2,3 +2,4 @@
 -L../benchmark/build/src
 -lbenchmark
 -lstdc++
+-std=c++11
