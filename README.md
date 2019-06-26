@@ -1,6 +1,11 @@
 # hipBenchmark
 
-READ ME FIRST - Guide to Micro-Benchmark your HIP Code.
+Guide to Micro-Benchmark your HIP Code.
+
+Figuring out the time for one approach vs another, or to compare HIP/CUDA Performance.
+We use Google's Benchmark lib.
+
+Steps:
 
 Checkout the google benchmark lib.
 ```bash                                                                                   
