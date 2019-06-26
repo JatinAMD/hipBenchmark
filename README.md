@@ -2,7 +2,9 @@
 
 Guide to Micro-Benchmark your HIP Code.
 
-Figuring out the time for one approach vs another, or to compare HIP/CUDA Performance.
+Know the time spent by critical section of your code or to compare performance of one approach vs another, or to compare HIP/CUDA Performance.
+
+
 We use Google's Benchmark lib.
 
 Steps:
